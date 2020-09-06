@@ -1,6 +1,8 @@
 # Learning-Path-Computer-Science
 A practical introduction to algorithms and data structures and computer science topics in JavaScript.
 
+![Computer-Science](https://static.frontendmasters.com/assets/fm/med/learn/background-computer-science.jpg)
+
 ## Core Coursework (take these in order)
 
 1. [Four Semesters of Computer Science in 5 Hours](https://frontendmasters.com/courses/computer-science/) : Start with a tour of the main computer science concepts including big-o to measure code complexity, algorithms to search and sort and data structures to store and retrieve data efficiently, and basic functional programming.
