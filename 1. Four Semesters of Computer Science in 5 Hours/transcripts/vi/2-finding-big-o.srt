@@ -1,0 +1,479 @@
+1
+00:00:00,000 --> 00:00:04,074
+[ÂM NHẠC]
+
+2
+00:00:04,074 --> 00:00:07,192
+>> Brian Holt: Chúng tôi có chức năng này được gọi là gạch bỏ.
+
+3
+00:00:07,192 --> 00:00:14,565
+Nếu tôi có một mảng thanh gồm 1,
+
+4
+00:00:14,565 --> 00:00:18,835
+2, 3, đúng.
+
+5
+00:00:18,835 --> 00:00:22,741
+Đây là mã cơ bản, tôi sẽ đảo ngược mảng và thêm nó vào chính nó, vì vậy
+
+6
+00:00:22,741 --> 00:00:26,740
+nó sẽ kết thúc là một cái gì đó giống như 1 cộng 3, mà sẽ là 4.
+
+7
+00:00:26,740 --> 00:00:28,780
+4, 4, làm tốt lắm Brian, bạn hiểu rồi.
+
+8
+00:00:28,780 --> 00:00:32,701
+Tôi không cố ý làm vậy nhưng về cơ bản, nó sẽ thêm 1 đến 3 và
+
+9
+00:00:32,701 --> 00:00:34,530
+2 đến 2 và 3 đến 1, phải không?
+
+10
+00:00:34,530 --> 00:00:37,280
+Vì vậy, nó sẽ thực hiện thuật toán vô dụng đó.
+
+11
+00:00:38,940 --> 00:00:40,593
+Nhưng hãy nói về cái cũ lớn đó sẽ như thế nào.
+
+12
+00:00:45,152 --> 00:00:47,129
+>> Brian Holt: Tốt cho mọi thứ mà chúng tôi nhập vào
+
+13
+00:00:47,129 --> 00:00:49,690
+bất kỳ độ dài đầu vào nào vì đầu vào của nó có thể là một mảng.
+
+14
+00:00:49,690 --> 00:00:53,830
+Nó sẽ chạm vào mọi thứ một lần.
+
+15
+00:00:53,830 --> 00:00:56,040
+Và chúng tôi đang làm những việc khác mà bạn có thể thêm.
+
+16
+00:00:56,040 --> 00:00:58,930
+Bạn có thể tìm ra các hệ số bằng cách thêm bao nhiêu hướng dẫn mà chúng tôi đang thực hiện
+
+17
+00:00:58,930 --> 00:00:59,660
+mỗi vòng lặp phải không?
+
+18
+00:00:59,660 --> 00:01:00,750
+Nhưng chúng ta không quan tâm đúng không?
+
+19
+00:01:00,750 --> 00:01:01,883
+Bây giờ là về các nét rộng.
+
+20
+00:01:04,974 --> 00:01:08,301
+>> Brian Holt: [COUGH] Xin lỗi.
+
+21
+00:01:09,720 --> 00:01:14,320
+Vì vậy, điểm chung ở đây là chúng ta sẽ thực hiện một vòng lặp lại mọi thứ,
+
+22
+00:01:14,320 --> 00:01:16,980
+về cơ bản nói rằng nó sẽ kết thúc.
+
+23
+00:01:16,980 --> 00:01:19,480
+Vì vậy, cứ mỗi độ dài, chúng ta sẽ xem qua một lần.
+
+24
+00:01:21,700 --> 00:01:25,710
+Vì vậy, bạn có thể nói ở đây rằng O lớn là M,
+
+25
+00:01:27,950 --> 00:01:32,010
+bởi vì chúng ta xem qua một lần, nó có ý nghĩa nào đó, phải không?
+
+26
+00:01:32,010 --> 00:01:32,850
+Khá đơn giản cho đến nay.
+
+27
+00:01:34,450 --> 00:01:39,140
+Vậy hãy nói về Tìm, đúng rồi, chúng ta mò kim đáy bể.
+
+28
+00:01:39,140 --> 00:01:42,552
+Haystack sẽ là một mảng và kim sẽ là bất cứ thứ gì bạn đang tìm kiếm
+
+29
+00:01:42,552 --> 00:01:43,740
+trong mảng.
+
+30
+00:01:43,740 --> 00:01:46,120
+Vì vậy, ở đây, chúng ta sẽ lặp lại nó.
+
+31
+00:01:47,360 --> 00:01:49,880
+Và nếu đống cỏ khô bằng kim thì chúng ta sẽ trả về true.
+
+32
+00:01:52,010 --> 00:01:53,270
+Thuật toán khá đơn giản.
+
+33
+00:01:54,740 --> 00:01:58,310
+Vậy, chữ O lớn ở đây là gì?
+
+34
+00:01:58,310 --> 00:02:00,130
+Chà, có khả năng nếu đó là lần đầu tiên,
+
+35
+00:02:00,130 --> 00:02:03,440
+nếu cây kim là thứ đầu tiên trong đống cỏ khô, nó có thể trở lại ngay lập tức.
+
+36
+00:02:04,750 --> 00:02:06,940
+Tuy nhiên, chúng tôi vẫn đang xem xét các khía cạnh rộng ở đây và
+
+37
+00:02:06,940 --> 00:02:10,400
+điều này sẽ giống như một nửa hoặc một phần tư n.
+
+38
+00:02:10,400 --> 00:02:14,600
+Nhưng bị cuốn vào những chi tiết không quan trọng đó, chúng tôi vẫn sẽ nói rằng đây là n,
+
+39
+00:02:14,600 --> 00:02:17,480
+nói cách khác, chúng tôi vẫn đang xem xét trường hợp xấu nhất và
+
+40
+00:02:17,480 --> 00:02:19,580
+trường hợp xấu nhất nó sẽ là điều cuối cùng đúng.
+
+41
+00:02:19,580 --> 00:02:22,056
+Chúng ta sẽ phải xem qua toàn bộ mảng.
+
+42
+00:02:22,056 --> 00:02:24,054
+Vì vậy, đây vẫn là O (n).
+
+43
+00:02:24,054 --> 00:02:28,777
+Vì vậy, ngay cả khi bạn đang đoản mạch, chúng tôi vẫn có khả năng
+
+44
+00:02:28,777 --> 00:02:33,040
+lặp lại mọi thứ và đó là khi tôi nói đó là một chữ O (n) lớn.
+
+45
+00:02:33,040 --> 00:02:37,560
+Được rồi, chúng ta hãy xem cái này ngay tại đây tạo bộ giá trị hoặc
+
+46
+00:02:37,560 --> 00:02:40,560
+lật đổ, tùy thuộc vào người bạn hỏi làm thế nào để nói điều đó.
+
+47
+00:02:40,560 --> 00:02:45,200
+Tôi nói chung là lật đổ bởi vì đó là những gì tôi nghe những người khác nói.
+
+48
+00:02:46,480 --> 00:02:49,880
+Và ý tưởng cơ bản ở đây là, chúng ta hãy xem.
+
+49
+00:02:53,244 --> 00:03:00,904
+>> Brian Holt: Nếu tôi có một cái gì đó giống như.
+
+50
+00:03:00,904 --> 00:03:04,866
+>> Brian Holt: 1,2, 3, nếu tôi có một mảng như vậy, về cơ bản tôi sẽ đi và
+
+51
+00:03:04,866 --> 00:03:08,980
+Tôi sẽ làm cho mọi sự kết hợp có thể có của các mảng mảng, đúng không.
+
+52
+00:03:08,980 --> 00:03:15,045
+Vì vậy, tôi sẽ làm 1,2.
+
+53
+00:03:15,045 --> 00:03:20,039
+Tôi sẽ làm 1,3 và sau đó,
+
+54
+00:03:20,039 --> 00:03:23,694
+Tôi sẽ làm 2,1.
+
+55
+00:03:23,694 --> 00:03:28,796
+Trên thực tế, tôi nghĩ nó thậm chí sẽ giống như 2,2, đúng, bất cứ điều gì.
+
+56
+00:03:28,796 --> 00:03:30,271
+Một cái gì đó có hiệu lực mặc dù
+
+57
+00:03:33,734 --> 00:03:36,580
+>> Brian Holt: Vì vậy, nó sẽ lặp lại mọi thứ và
+
+58
+00:03:36,580 --> 00:03:39,760
+sau đó tạo những gợn sóng này cho chúng tôi ngay.
+
+59
+00:03:41,790 --> 00:03:45,260
+Vì vậy, câu hỏi ở đây là O lớn của điều này là gì?
+
+60
+00:03:45,260 --> 00:03:47,979
+Chúng ta có một vòng lặp và sau đó là bên trong vòng lặp, vì vậy
+
+61
+00:03:47,979 --> 00:03:51,711
+về cơ bản, chúng ta đi đến một quyền trong mảng này và sau đó bên trong vòng lặp đó,
+
+62
+00:03:51,711 --> 00:03:55,255
+chúng tôi sẽ lặp lại mọi thứ bên trong vòng lặp đó, vì vậy
+
+63
+00:03:55,255 --> 00:03:59,780
+chúng ta sẽ làm một cái ở vòng ngoài và sau đó vòng bên trong sẽ làm 1,2,3.
+
+64
+00:03:59,780 --> 00:04:00,997
+Sau đó, chúng tôi sẽ làm 2, và
+
+65
+00:04:00,997 --> 00:04:03,810
+sau đó ở vòng lặp bên trong, chúng ta sẽ làm 1,2,3 một lần nữa, phải không?
+
+66
+00:04:03,810 --> 00:04:05,400
+Vì vậy, bây giờ bạn phải suy nghĩ về như, được rồi,
+
+67
+00:04:05,400 --> 00:04:07,880
+Tôi sẽ lặp lại nó bao nhiêu lần?
+
+68
+00:04:07,880 --> 00:04:10,040
+Chà, câu trả lời là, vì chúng ta có một bên ngoài và
+
+69
+00:04:10,040 --> 00:04:12,910
+chúng ta có một vòng lặp bên trong có nghĩa là chúng ta sẽ là n bình phương.
+
+70
+00:04:14,480 --> 00:04:18,310
+Và tôi hy vọng bạn đã thấy thủ thuật này, không có gì khác ngoài thủ thuật này,
+
+71
+00:04:18,310 --> 00:04:19,890
+bạn chỉ cần tìm các vòng lặp.
+
+72
+00:04:19,890 --> 00:04:24,380
+Vì vậy, mỗi khi bạn thấy lồng nhau một lúc hoặc một cái gì đó tương tự, rất có thể đó là
+
+73
+00:04:24,380 --> 00:04:28,920
+sẽ gần như không có gì đặc biệt, đó sẽ là câu trả lời của bạn ngay tại đó.
+
+74
+00:04:28,920 --> 00:04:32,250
+Vì vậy, bạn chỉ cần tìm các vòng lặp lồng nhau, nếu tôi có vòng lặp for trong vòng lặp for
+
+75
+00:04:32,250 --> 00:04:35,440
+vòng lặp trong vòng lặp for, nó sẽ được kết thúc bên phải, vân vân và vân vân.
+
+76
+00:04:36,530 --> 00:04:41,470
+Ngoài ra, nếu bạn có một thuật toán kết thúc, có thể bạn đang làm sai.
+
+77
+00:04:41,470 --> 00:04:42,600
+Tôi chỉ ném nó ra khỏi đó.
+
+78
+00:04:42,600 --> 00:04:45,300
+Rất hiếm có những dịp thích hợp.
+
+79
+00:04:47,370 --> 00:04:49,100
+Về cơ bản đó là nó ngay tại đây.
+
+80
+00:04:49,100 --> 00:04:50,850
+Chúng tôi chỉ tìm kiếm các vòng lặp lồng nhau,
+
+81
+00:04:50,850 --> 00:04:54,210
+bởi vì đó là 95% thời gian là những gì sẽ thêm nhiều thời gian nhất cho những gì bạn đang làm.
+
+82
+00:04:56,940 --> 00:04:59,210
+Và một điều đáng nói khác.
+
+83
+00:05:00,220 --> 00:05:02,670
+Vì vậy, nếu bạn không có vòng lặp và
+
+84
+00:05:02,670 --> 00:05:05,805
+nếu bạn chỉ làm điều gì đó đổi lại đó phải là thời gian không đổi.
+
+85
+00:05:05,805 --> 00:05:10,503
+Bởi vì hoặc 01, chúng ta luôn nghe nói về thời gian không đổi, vì vậy và
+
+86
+00:05:10,503 --> 00:05:14,244
+Tôi sẽ nói rằng ad nauseum khi chúng ta tiếp tục như vậy.
+
+87
+00:05:14,244 --> 00:05:15,408
+Ý tôi là thế.
+
+88
+00:05:15,408 --> 00:05:19,270
+Điều này có nghĩa là không có vòng lặp nào trong mã của bạn.
+
+89
+00:05:21,480 --> 00:05:26,009
+Chúng ta cũng sẽ thấy o (log n), khi chúng ta bắt đầu chuyển sang đệ quy và
+
+90
+00:05:26,009 --> 00:05:28,130
+thuật toán đệ quy.
+
+91
+00:05:28,130 --> 00:05:33,020
+Và về cơ bản, nếu bạn đang chơi đệ quy, một chiến lược đệ quy bất kỳ loại nào như
+
+92
+00:05:33,020 --> 00:05:36,460
+phân chia và chinh phục, điều mà chúng ta sẽ nói đến ở đây sau một chút.
+
+93
+00:05:36,460 --> 00:05:39,900
+Nó sẽ chỉ là một bản ghi đúng, và về cơ bản điều đó nói lên điều đó khi bạn thêm
+
+94
+00:05:39,900 --> 00:05:44,160
+ngày càng nhiều yếu tố đối với bất cứ điều gì bạn đang làm, nó sẽ mất ít hơn và
+
+95
+00:05:44,160 --> 00:05:47,510
+ít thời gian hơn cho mỗi mục mà bạn đang thêm vào danh sách, phải không?
+
+96
+00:05:47,510 --> 00:05:51,643
+Vì vậy, nếu có thể mười đầu tiên đưa tôi đến mười và sau đó mười tiếp theo khiến tôi mất năm giây để
+
+97
+00:05:51,643 --> 00:05:54,392
+mười tiếp theo mất hai giây rưỡi, phải không?
+
+98
+00:05:54,392 --> 00:05:59,559
+Vì vậy, đó là sự cộng thêm thời gian và đó là ý nghĩa của thời gian logarit.
+
+99
+00:06:02,932 --> 00:06:04,420
+>> Brian Holt: Vâng, với kích thước đầu vào.
+
+100
+00:06:04,420 --> 00:06:09,650
+Vì vậy, điều đó sẽ giống như sắp xếp hợp nhất và sắp xếp nhanh và
+
+101
+00:06:09,650 --> 00:06:14,040
+đối phó với cây cũng sẽ thấy các thông tin đăng nhập đệ quy này.
+
+102
+00:06:15,760 --> 00:06:16,920
+>> Người nói 2: Chúng tôi có một câu hỏi trực tuyến.
+
+103
+00:06:16,920 --> 00:06:17,420
+>> Brian Holt: Chắc chắn.
+
+104
+00:06:18,860 --> 00:06:20,610
+>> Người nói 2: Bạn có hay bạn muốn tôi đọc cho bạn nghe?
+
+105
+00:06:20,610 --> 00:06:21,154
+>> Brian Holt: Hãy tiếp tục, bạn đọc nó.
+
+106
+00:06:21,154 --> 00:06:26,176
+>> Người nói 2: Được rồi, có công bằng khi nói rằng nếu bạn phải lặp lại mảng hai lần,
+
+107
+00:06:26,176 --> 00:06:31,232
+bạn có thể có O 2n hoặc vẫn được viết thành O n?
+
+108
+00:06:31,232 --> 00:06:31,825
+>> Brian Holt: Đó là một câu hỏi hay.
+
+109
+00:06:31,825 --> 00:06:32,562
+Ai hỏi vậy?
+
+110
+00:06:32,562 --> 00:06:33,293
+Brody?
+
+111
+00:06:33,293 --> 00:06:34,026
+>> Diễn giả 2: Brody Y.
+
+112
+00:06:34,026 --> 00:06:36,940
+>> Brian Holt: Brody Y, được rồi.
+
+113
+00:06:38,010 --> 00:06:42,740
+Vì vậy, câu trả lời cho câu hỏi đó là bạn sẽ thêm một hệ số, nhưng khi chúng tôi
+
+114
+00:06:42,740 --> 00:06:46,880
+thấy trước đây với ba x bình phương cộng với x cộng một, chúng ta chỉ bỏ ba.
+
+115
+00:06:46,880 --> 00:06:50,800
+Vì vậy, O đó là khá hung dữ và hút đi tất cả các điều khoản khác.
+
+116
+00:06:51,940 --> 00:06:54,890
+Vì vậy, chúng tôi vẫn sẽ nói đó là O n, ngay cả khi bạn có vòng lặp like for và
+
+117
+00:06:54,890 --> 00:06:57,506
+sau đó là vòng lặp for khác bên dưới và vòng lặp for khác bên dưới.
+
+118
+00:06:57,506 --> 00:07:00,160
+Chúng tôi vẫn chỉ,
+
+119
+00:07:00,160 --> 00:07:05,830
+chúng tôi đang thêm các hệ số không thực sự thêm các điều khoản hoặc các điều khoản hàm mũ đúng không.
+
+120
+00:07:05,830 --> 00:07:07,500
+Nhưng đó là một câu hỏi tuyệt vời.
