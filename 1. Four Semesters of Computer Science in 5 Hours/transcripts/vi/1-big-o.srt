@@ -1,0 +1,311 @@
+1
+00:00:00,000 --> 00:00:04,510
+[ÂM NHẠC]
+
+2
+00:00:04,510 --> 00:00:05,016
+>> Brian Holt: Big O,
+
+3
+00:00:05,016 --> 00:00:10,526
+chúng tôi nói về điều này đầu tiên vì chúng tôi tham khảo lại trong toàn bộ khóa học.
+
+4
+00:00:10,526 --> 00:00:15,320
+Và Big O là cách mà chúng ta phân tích mức độ hiệu quả của một thuật toán.
+
+5
+00:00:15,320 --> 00:00:19,830
+Và đó là một khái niệm toán học mà chúng tôi vay mượn từ khoa học máy tính,
+
+6
+00:00:19,830 --> 00:00:22,240
+bởi vì nó thực sự hữu ích cho chúng tôi.
+
+7
+00:00:22,240 --> 00:00:24,810
+Và tôi nghĩ bạn sẽ thấy rất nhiều điều đó ngày hôm nay, toán học và
+
+8
+00:00:24,810 --> 00:00:26,590
+khoa học máy tính rõ ràng có rất nhiều chéo.
+
+9
+00:00:26,590 --> 00:00:28,480
+Nhưng đặc biệt khi áp dụng cho các thuật toán,
+
+10
+00:00:29,590 --> 00:00:31,880
+đã điều khiển tất cả điều này từ toán học đúng.
+
+11
+00:00:33,450 --> 00:00:37,050
+Điều đó có nghĩa là mặc dù đây là loại đá quý nhất mà chúng ta có được ngày hôm nay,
+
+12
+00:00:37,050 --> 00:00:39,720
+vì vậy không có dẫn xuất.
+
+13
+00:00:39,720 --> 00:00:40,540
+Không có tích phân.
+
+14
+00:00:40,540 --> 00:00:46,140
+Đây chỉ có thể là đại số hai-ish, có thể là đại số một.
+
+15
+00:00:48,870 --> 00:00:50,420
+Dù sao thì Ô lớn.
+
+16
+00:00:50,420 --> 00:00:55,120
+Vì vậy, chữ O lớn đang nói về bức tranh lớn, đó là những nét vẽ rộng.
+
+17
+00:00:55,120 --> 00:00:56,319
+Nó không phải là chi tiết, phải không?
+
+18
+00:00:58,480 --> 00:00:59,030
+Ví dụ,
+
+19
+00:00:59,030 --> 00:01:03,050
+nếu chúng ta có một thuật toán mất 300 mili giây so với 330 mili giây,
+
+20
+00:01:03,050 --> 00:01:07,160
+chúng ta không thực sự ở trong trường hợp cụ thể này, chúng ta không thực sự quan tâm lắm, phải không?
+
+21
+00:01:07,160 --> 00:01:11,200
+Vì chúng nằm trong phạm vi sai số, độ lệch chuẩn phải không?
+
+22
+00:01:11,200 --> 00:01:14,010
+Chúng tôi thậm chí không thực sự quan tâm nhiều đến vậy nếu nó là 300 so với 500
+
+23
+00:01:14,010 --> 00:01:15,140
+mili giây, phải không?
+
+24
+00:01:15,140 --> 00:01:18,440
+Điều chúng tôi thực sự quan tâm hơn nhiều là 300 mili giây hoặc
+
+25
+00:01:18,440 --> 00:01:19,760
+là 30 giây.
+
+26
+00:01:19,760 --> 00:01:24,620
+Chúng tôi đang quan tâm đến các thứ tự chênh lệch kiểu cường độ.
+
+27
+00:01:26,158 --> 00:01:29,970
+Vì vậy, đó là những gì Big O làm, về cơ bản nó cho phép chúng tôi hút đi tất cả
+
+28
+00:01:29,970 --> 00:01:35,140
+những chi tiết nhỏ, tất cả các chi tiết, và chỉ cần nhìn vào bức tranh thực sự lớn ở đây.
+
+29
+00:01:36,150 --> 00:01:39,730
+Vì vậy, tôi thích nghĩ về chữ O lớn giống như một chiếc máy hút bụi lớn chỉ hút
+
+30
+00:01:39,730 --> 00:01:42,600
+tất cả các thông tin ít quan trọng hơn từ nó.
+
+31
+00:01:43,750 --> 00:01:48,570
+Vì vậy, một lần nữa, đây là phép toán lớn nhất mà chúng ta sẽ nhận được ngày hôm nay.
+
+32
+00:01:48,570 --> 00:01:52,370
+Chỉ cần tưởng tượng phương trình này 3x bình phương + x + 1, đúng.
+
+33
+00:01:54,130 --> 00:01:56,170
+Vì vậy, nếu bạn cắm như mười ở đó, phải không.
+
+34
+00:01:56,170 --> 00:02:00,490
+Bạn sẽ nhận được 10 bình phương, 100,
+
+35
+00:02:00,490 --> 00:02:04,331
+300 cộng với 10, 310, 311.
+
+36
+00:02:04,331 --> 00:02:06,012
+Chúng tôi sẽ chỉ sử dụng phép toán mà tôi đã có ở đó, vì vậy
+
+37
+00:02:06,012 --> 00:02:07,206
+Tôi không cần phải làm toán trong đầu.
+
+38
+00:02:07,206 --> 00:02:11,908
+75, nếu bạn cắm 5, 5 cộng với 1, vì vậy
+
+39
+00:02:11,908 --> 00:02:18,180
+bạn sẽ thích 81, xin lỗi, [COUGH].
+
+40
+00:02:18,180 --> 00:02:20,574
+Nhưng ngay sau khi chúng tôi bắt đầu kết hợp số lượng lớn ở đây,
+
+41
+00:02:20,574 --> 00:02:22,980
+chúng ta sẽ nhận được những con số rõ ràng là rất lớn, phải không?
+
+42
+00:02:22,980 --> 00:02:27,350
+Vì vậy, đó sẽ là hàng triệu, hàng tỷ, hàng nghìn tỷ.
+
+43
+00:02:27,350 --> 00:02:28,720
+75 nghìn tỷ nếu chúng ta đầu tư vào năm triệu.
+
+44
+00:02:28,720 --> 00:02:32,840
+Cái thứ hai sẽ là năm triệu và cái cuối cùng sẽ là một.
+
+45
+00:02:32,840 --> 00:02:36,990
+Tất cả những điều này để nói rằng chúng tôi đang chứng minh ở đây là x bình phương này thực sự là
+
+46
+00:02:36,990 --> 00:02:40,320
+thực sự phần lớn giá trị đến từ đâu trong phương trình này, đúng không.
+
+47
+00:02:40,320 --> 00:02:43,320
+Đến mức về cơ bản chúng ta có thể bỏ qua những gì đang xảy ra
+
+48
+00:02:43,320 --> 00:02:46,705
+ở đây bởi vì chúng chỉ là nhấp nháy, hoặc
+
+49
+00:02:46,705 --> 00:02:50,715
+chúng là một sự sụt giảm trong số lượng lớn các con số đến từ đây.
+
+50
+00:02:50,715 --> 00:02:53,515
+Vì vậy, đây là những gì O lớn làm, về cơ bản nó nói rằng tôi sẽ tiếp tục và
+
+51
+00:02:53,515 --> 00:02:57,505
+bỏ qua những thứ đó vì nó sẽ không thực sự ảnh hưởng nhiều đến những gì tôi
+
+52
+00:02:57,505 --> 00:03:00,605
+sẽ làm ở đây. >> Sinh viên: [KHÔNG NGHE ĐƯỢC]
+
+53
+00:03:00,605 --> 00:03:01,634
+>> Brian Holt: Vâng.
+
+54
+00:03:07,845 --> 00:03:08,774
+>> Brian Holt: Vậy đó là chữ O lớn
+
+55
+00:03:08,774 --> 00:03:09,630
+sẽ làm.
+
+56
+00:03:09,630 --> 00:03:13,620
+Về cơ bản, nó sẽ cho phép chúng ta bỏ qua những phần nhỏ hơn này của phương trình.
+
+57
+00:03:14,620 --> 00:03:17,880
+Vì vậy, O lớn của phương trình này sẽ là
+
+58
+00:03:17,880 --> 00:03:21,060
+O n bình phương bởi vì chúng tôi thực sự sẽ bỏ qua 3.
+
+59
+00:03:21,060 --> 00:03:23,760
+Chúng ta thậm chí không thực sự quan tâm đến các hệ số, phải không?
+
+60
+00:03:23,760 --> 00:03:27,320
+Như tôi đã nói, chúng tôi không quan tâm đó là 300 mili giây hay 600 mili giây.
+
+61
+00:03:27,320 --> 00:03:30,140
+Chúng tôi quan tâm nếu đó là 30 giây so với 300 mili giây.
+
+62
+00:03:30,140 --> 00:03:33,370
+Vì vậy, đó là những gì O lớn sẽ làm cho chúng ta và đó thực sự chỉ là nó.
+
+63
+00:03:33,370 --> 00:03:36,494
+Về cơ bản, bạn sẽ tìm kiếm thuật ngữ lớn nhất là thứ có
+
+64
+00:03:36,494 --> 00:03:39,430
+số mũ lớn nhất và nói, được rồi, đó là chữ O lớn, đúng.
+
+65
+00:03:39,430 --> 00:03:43,543
+Đó thực chất là những gì đang diễn ra ở đây. >> Brian Holt: Vì vậy
+
+66
+00:03:43,543 --> 00:03:45,700
+O lớn chỉ là hấp thụ tất cả các lông tơ khác.
+
+67
+00:03:47,270 --> 00:03:50,540
+Về cơ bản, nó chỉ là số mũ lớn nhất.
+
+68
+00:03:53,260 --> 00:03:57,047
+Bây giờ có nhiều cách hơn mà O lớn làm được nếu bạn đi vào toán học, nhưng
+
+69
+00:03:57,047 --> 00:04:02,741
+chúng tôi không quan tâm, ít nhất là không phải hôm nay. >> Brian Holt: Và
+
+70
+00:04:02,741 --> 00:04:06,150
+phần lớn, chúng ta sẽ nói về vấn đề này về mặt thời gian.
+
+71
+00:04:06,150 --> 00:04:09,600
+Vì vậy, 600 mili giây so với 60 giây, nhưng bạn cũng có thể sử dụng điều này cho
+
+72
+00:04:09,600 --> 00:04:10,840
+phân tích không gian.
+
+73
+00:04:10,840 --> 00:04:15,190
+Vì vậy, nếu một thuật toán phải chiếm nhiều bộ nhớ hơn,
+
+74
+00:04:15,190 --> 00:04:17,150
+bạn cũng có thể sử dụng O lớn để phân tích như thế này.
+
+75
+00:04:19,490 --> 00:04:22,370
+Nếu tôi sắp xếp mảng này, nó sẽ chiếm nhiều gấp bốn lần
+
+76
+00:04:22,370 --> 00:04:25,210
+không gian để có thể sắp xếp mọi thứ một cách chính xác, bạn cũng có thể sử dụng nó để
+
+77
+00:04:25,210 --> 00:04:27,690
+kiểu phân tích không gian đó.
+
+78
+00:04:27,690 --> 00:04:30,480
+Và chúng tôi sẽ đề cập đến vấn đề đó, nhưng chúng tôi sẽ không tập trung vào nó.

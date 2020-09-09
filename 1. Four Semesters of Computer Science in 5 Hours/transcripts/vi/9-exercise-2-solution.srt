@@ -1,0 +1,115 @@
+1
+00:00:00,000 --> 00:00:03,791
+[ÂM NHẠC]
+
+2
+00:00:03,791 --> 00:00:05,153
+>> Brian Holt: Vậy hãy mở bài tập của bạn
+
+3
+00:00:05,153 --> 00:00:09,979
+đây. >> Brian Holt: Một cái gì đó
+
+4
+00:00:09,979 --> 00:00:14,768
+khác mà gấu đề cập đến. >> Brian Holt: Tôi đã viết một chút
+
+5
+00:00:14,768 --> 00:00:20,771
+công cụ trực quan hóa cho bạn, vì vậy, >> Brian Holt: Nếu
+
+6
+00:00:20,771 --> 00:00:25,720
+bạn nhìn xuống đây, bạn sẽ thấy đây là câu trả lời
+
+7
+00:00:25,720 --> 00:00:30,971
+sẽ như thế nào. >> Brian Holt: Nó được gọi là vòng lặp bong bóng,
+
+8
+00:00:30,971 --> 00:00:32,130
+cuz nhìn vào cái này 1, phải không?
+
+9
+00:00:32,130 --> 00:00:34,060
+Bạn có thể thấy 1 loại bong bóng này lên đến đầu.
+
+10
+00:00:34,060 --> 00:00:35,073
+Đó là lý do tại sao nó trông,
+
+11
+00:00:35,073 --> 00:00:40,009
+mọi thứ có xu hướng nổi lên. >> Brian Holt: Và đó là lý do tại sao nó được gọi là
+
+12
+00:00:40,009 --> 00:00:45,331
+vòng lặp bong bóng, hoặc đúng hơn là sắp xếp bong bóng. >> Brian Holt: Được rồi,
+
+13
+00:00:45,331 --> 00:00:52,693
+vì vậy hãy vào đây để tập thể dục. >> Brian Holt: [COUGH] Vậy
+
+14
+00:00:52,693 --> 00:00:55,464
+một lần nữa, nếu bạn muốn tạm ngừng chạy thử nghiệm,
+
+15
+00:00:55,464 --> 00:00:58,023
+chỉ cần xuống dưới đây và nói xdescribe.
+
+16
+00:00:58,023 --> 00:01:02,085
+Tôi thực sự khuyên bạn điều đó bởi vì khi bạn bắt đầu viết những vòng lặp này,
+
+17
+00:01:02,085 --> 00:01:06,654
+you're gonna get a infinite loop, which is the ugly cousin of the infinite
+
+18
+00:01:06,654 --> 00:01:10,623
+recursion. >> Brian Holt: Actually,
+
+19
+00:01:10,623 --> 00:01:11,840
+they're kinda both equally ugly.
+
+20
+00:01:13,270 --> 00:01:17,751
+Both of them are gonna make your browser tab crash, so don't.
+
+21
+00:01:17,751 --> 00:01:21,960
+I have here a recap of how bubble sort works.
+
+22
+00:01:21,960 --> 00:01:26,591
+It's exactly what I just described to you. >> Brian Holt: And
+
+23
+00:01:26,591 --> 00:01:29,320
+then there is the optional visualization helper.
+
+24
+00:01:29,320 --> 00:01:32,210
+You don't have to use this, your unit test will still pass without it.
+
+25
+00:01:32,210 --> 00:01:36,330
+But if you want to, at the beginning of your inner loop, call snapshot.
+
+26
+00:01:36,330 --> 00:01:41,106
+Snapshot with whatever your array is, just passing the whole array.
+
+27
+00:01:41,106 --> 00:01:42,050
+And if you do that,
+
+28
+00:01:42,050 --> 00:01:46,309
+you'll get the visualization tool at the bottom just working for free, hopefully.
+
+29
+00:01:46,309 --> 00:01:49,930
+But yeah, just call it every single time, it'll do all the deduplication for you.

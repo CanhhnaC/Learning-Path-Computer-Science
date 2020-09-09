@@ -1,0 +1,239 @@
+1
+00:00:00,000 --> 00:00:03,784
+[ÂM NHẠC]
+
+2
+00:00:03,784 --> 00:00:07,440
+>> Diễn giả 1: Làm cách nào để chúng tôi tích hợp các trường hợp thử nghiệm Jasmine với codepen?
+
+3
+00:00:07,440 --> 00:00:08,800
+>> Brian Holt: Câu hỏi hay.
+
+4
+00:00:08,800 --> 00:00:12,570
+Hãy để tôi chỉ cho bạn một cách ngắn gọn vì nó nằm ngoài phạm vi của lớp học nhưng
+
+5
+00:00:12,570 --> 00:00:17,240
+nếu bạn nhấp vào codepen, sau đó bạn nhấp vào Cài đặt và bạn nhấp vào JavaScript.
+
+6
+00:00:17,240 --> 00:00:21,600
+Lưu ý rằng tôi chỉ bao gồm một loạt các tệp Jasmine và
+
+7
+00:00:21,600 --> 00:00:23,560
+Tôi chỉ lấy đó ra khỏi bài đăng trên blog của ai đó.
+
+8
+00:00:23,560 --> 00:00:27,265
+Trên thực tế, bạn có thể chỉ cần tìm kiếm một cành hoa Nhài và nó sẽ ở trên đó.
+
+9
+00:00:27,265 --> 00:00:29,022
+Cũng có một tệp CSS,
+
+10
+00:00:29,022 --> 00:00:32,693
+nhưng nó chỉ là một loạt các liên kết bên ngoài bao gồm JavaScript.
+
+11
+00:00:36,463 --> 00:00:39,660
+>> Brian Holt: Được rồi, hãy cùng nhau giải quyết vấn đề này.
+
+12
+00:00:39,660 --> 00:00:42,530
+Vì vậy, ở đây chúng tôi sẽ đặt mã của chúng tôi.
+
+13
+00:00:43,530 --> 00:00:46,930
+Có ghi chú của tôi ở đây, và
+
+14
+00:00:48,150 --> 00:00:52,950
+Tôi sẽ tạo một hàm được gọi là giai thừa, và nó sẽ nhận một (n).
+
+15
+00:00:54,780 --> 00:00:59,350
+Một điều thú vị khác cần lưu ý về CodePen, là nếu bạn thấy màu đỏ này
+
+16
+00:00:59,350 --> 00:01:03,200
+dấu chấm than ở đây, có nghĩa là nó không biên dịch.
+
+17
+00:01:03,200 --> 00:01:08,310
+Vì vậy, nếu bạn nhấp vào đó, nó sẽ bắt đầu hét vào mặt bạn
+
+18
+00:01:08,310 --> 00:01:11,360
+nó sẽ cho bạn biết nó đang gặp vấn đề ở đâu trong trường hợp cụ thể này, chúng tôi không
+
+19
+00:01:11,360 --> 00:01:16,740
+có dấu ngoặc nhọn nên nó là người đàn ông nhưng vì chúng ta đặt một dấu ngoặc nhọn mà nó biến mất.
+
+20
+00:01:16,740 --> 00:01:20,870
+Điều đáng nói khác là tôi đã bật Babel.
+
+21
+00:01:20,870 --> 00:01:24,880
+Vì vậy, một lần nữa đến đây vào Cài đặt xem JavaScript mọi thứ đang được chạy
+
+22
+00:01:24,880 --> 00:01:29,780
+thông qua Babel để bạn có thể thoải mái sử dụng tất cả ES6 ngoại trừ máy phát điện.
+
+23
+00:01:29,780 --> 00:01:32,510
+Chúng tôi không sử dụng máy phát điện và điều đó không sao, nhưng
+
+24
+00:01:32,510 --> 00:01:37,118
+chỉ nói rằng codepen có vấn đề với máy phát điện nên thậm chí không thử.
+
+25
+00:01:37,118 --> 00:01:41,438
+Được rồi, dòng đầu tiên của đệ quy của chúng ta,
+
+26
+00:01:41,438 --> 00:01:45,640
+điều đầu tiên chúng ta sẽ làm là gì?
+
+27
+00:01:45,640 --> 00:01:46,636
+Trường hợp cơ sở, phải không?
+
+28
+00:01:46,636 --> 00:01:49,892
+Vì vậy, nếu (n <2),
+
+29
+00:01:49,892 --> 00:01:55,755
+thì chúng ta sẽ trả về 1,
+
+30
+00:01:55,755 --> 00:02:00,520
+khá đơn giản, được không?
+
+31
+00:02:00,520 --> 00:02:03,061
+Và bây giờ giai thừa là gì?
+
+32
+00:02:03,061 --> 00:02:11,130
+Chà, đó là giai thừa n * của (n- 1).
+
+33
+00:02:13,551 --> 00:02:16,231
+>> Brian Holt: Đó là nó và nếu bạn nhìn xuống đây,
+
+34
+00:02:16,231 --> 00:02:19,264
+bạn nhận thấy rằng bài kiểm tra của chúng tôi hiện đang vượt qua.
+
+35
+00:02:22,119 --> 00:02:26,320
+>> Brian Holt: Một lần nữa để chứng minh ở đây nó là giai thừa nếu bạn
+
+36
+00:02:26,320 --> 00:02:30,351
+suy nghĩ về Bất kể con số là bất cứ điều gì
+
+37
+00:02:30,351 --> 00:02:33,990
+giai thừa của số trừ một, phải không?
+
+38
+00:02:33,990 --> 00:02:37,004
+Và đó thực sự là những gì chúng ta đang diễn đạt thành mã, phải không?
+
+39
+00:02:37,004 --> 00:02:39,180
+Đó là giai thừa n lần của (n- 1).
+
+40
+00:02:39,180 --> 00:02:43,930
+Vì vậy, đó là thứ thực sự có thể giúp bạn, chỉ cần lý do cho phép
+
+41
+00:02:43,930 --> 00:02:44,640
+về những gì đang xảy ra.
+
+42
+00:02:48,040 --> 00:02:50,220
+Điều này hữu ích cho tôi và nó gây nhầm lẫn cho những người khác.
+
+43
+00:02:50,220 --> 00:02:54,400
+Một số tôi sẽ nói rõ nó và nếu nó khiến bạn bối rối hơn, hãy vứt nó đi.
+
+44
+00:02:54,400 --> 00:02:56,960
+Bạn có thể nghĩ về phần thân của hàm
+
+45
+00:02:56,960 --> 00:03:01,210
+của một hàm đệ quy giống như phần bên trong của vòng lặp, phải không?
+
+46
+00:03:01,210 --> 00:03:05,120
+Đó là một bản tóm tắt rất rò rỉ không đi quá xa với điều đó
+
+47
+00:03:05,120 --> 00:03:08,510
+chỉ cần nghĩ về điều đó, đó là mã được chạy đi chạy lại nhiều lần.
+
+48
+00:03:08,510 --> 00:03:10,990
+Chỉ cần bạn thực hiện một vòng lặp for, bất kể mã nào ở giữa vòng lặp for
+
+49
+00:03:10,990 --> 00:03:13,260
+vòng lặp đó là những gì được chạy đi chạy lại nhiều lần.
+
+50
+00:03:13,260 --> 00:03:15,610
+Đây là cùng một khái niệm chung.
+
+51
+00:03:15,610 --> 00:03:18,560
+Đây là mã sẽ được chạy nhiều lần.
+
+52
+00:03:18,560 --> 00:03:22,600
+Có lẽ điều đó giúp bạn có thể không có bất kỳ câu hỏi nào?
+
+53
+00:03:26,970 --> 00:03:28,290
+Vì vậy, hãy đóng nó lại.
+
+54
+00:03:30,280 --> 00:03:32,752
+Rời khỏi trang này, rời khỏi trang đó.
+
+55
+00:03:32,752 --> 00:03:36,841
+Và một lần nữa, tất cả các câu trả lời đều có ở đây, vì vậy nếu bạn đang đấu tranh hoặc
+
+56
+00:03:36,841 --> 00:03:41,718
+bạn muốn quay lại sau và xem xét nó, tất cả các câu trả lời mà tôi đang đưa ra ở đây,
+
+57
+00:03:41,718 --> 00:03:43,833
+họ cũng có chúng ngay tại đây.
+
+58
+00:03:46,970 --> 00:03:48,270
+>> Brian Holt: Tôi nghĩ rằng tôi cũng đã sửa tất cả.
+
+59
+00:03:48,270 --> 00:03:49,293
+Một trong số họ đã sai.
+
+60
+00:03:49,293 --> 00:03:50,429
+Đúng vậy.

@@ -1,0 +1,223 @@
+1
+00:00:00,000 --> 00:00:03,866
+[ÂM NHẠC]
+
+2
+00:00:03,866 --> 00:00:06,610
+>> Brian Holt: Bây giờ tôi muốn đi đến bài tập ở đây trong đệ quy.
+
+3
+00:00:06,610 --> 00:00:08,270
+Vì vậy, chúng ta sẽ phân tích giai thừa.
+
+4
+00:00:09,630 --> 00:00:12,480
+Có hai vấn đề punk mà bất cứ khi nào bạn nói về đệ quy
+
+5
+00:00:12,480 --> 00:00:16,280
+mọi người luôn nói về, fibonaccis và thừa kế.
+
+6
+00:00:16,280 --> 00:00:17,370
+Và đoán xem? Bạn phải làm cả hai.
+
+7
+00:00:18,760 --> 00:00:21,409
+Được rồi, đối với những người bạn không quen thuộc với các giai thừa,
+
+8
+00:00:22,550 --> 00:00:24,960
+Tôi chắc rằng bạn đã thấy điều này trước năm điểm giải thích đúng.
+
+9
+00:00:24,960 --> 00:00:29,085
+Và điều đó có nghĩa là 5x4, geez,
+
+10
+00:00:29,085 --> 00:00:33,871
+x3x2x1 hoặc bạn có thể bỏ đi 1
+
+11
+00:00:33,871 --> 00:00:39,160
+bởi vì bạn biết đấy, không phải là siêu hữu ích.
+
+12
+00:00:40,790 --> 00:00:46,807
+Vì vậy, tôi muốn bạn viết một hàm đệ quy làm giai thừa cho bạn.
+
+13
+00:00:46,807 --> 00:00:51,366
+Vì vậy, giai thừa của một là một giai thừa của hai là hai giai thừa của ba là sáu.
+
+14
+00:00:51,366 --> 00:00:53,614
+>> Diễn giả 2: Chúng tôi có một số câu hỏi từ ví dụ trước.
+
+15
+00:00:53,614 --> 00:00:54,497
+>> Brian Holt: Được rồi.
+
+16
+00:00:54,497 --> 00:00:58,801
+>> Người nói 2: Winny đang hỏi vòng lặp for là gì
+
+17
+00:00:58,801 --> 00:01:03,619
+tương đương với vòng lặp của hàm Fibonacci?
+
+18
+00:01:03,619 --> 00:01:05,270
+>> Brian Holt: Tôi không biết rõ điều đó.
+
+19
+00:01:05,270 --> 00:01:08,802
+Bạn chắc chắn có thể Google nó và có thể trong khi bạn đang thực hiện bài tập của mình,
+
+20
+00:01:08,802 --> 00:01:09,876
+Tôi có thể xem qua nó.
+
+21
+00:01:12,678 --> 00:01:17,335
+>> Brian Holt: Vâng, tôi không thể viết nó ra khỏi đầu mình hoặc tôi sẽ không,
+
+22
+00:01:17,335 --> 00:01:18,790
+nó sẽ mất một lúc.
+
+23
+00:01:18,790 --> 00:01:24,330
+>> Người nói 2: Và sau đó Benjamin H có một câu hỏi nếu đó là O n log n,
+
+24
+00:01:24,330 --> 00:01:29,100
+chúng ta vẫn sẽ bỏ bổ ngữ n và chỉ nói O log n?
+
+25
+00:01:29,100 --> 00:01:30,710
+>> Brian Holt: Đó là một câu hỏi hay.
+
+26
+00:01:30,710 --> 00:01:35,130
+Câu trả lời là không vì nó không thực sự là hệ số.
+
+27
+00:01:35,130 --> 00:01:37,170
+Con số đó tăng lên cùng với log n và
+
+28
+00:01:37,170 --> 00:01:40,340
+thì nó thực sự trở thành con số lớn hơn.
+
+29
+00:01:40,340 --> 00:01:43,110
+Vì vậy, phần n thực sự quan trọng đối với điều đó và
+
+30
+00:01:43,110 --> 00:01:46,560
+chìa khóa cần ghi nhớ là nó vẫn còn n, phải không?
+
+31
+00:01:46,560 --> 00:01:52,280
+Vì vậy, như bạn biết nó tăng từ 5.000 đến 10.000, n sẽ tăng cùng với nó.
+
+32
+00:01:52,280 --> 00:01:56,130
+Trong khi nếu chỉ là ba, ba vẫn là ba,
+
+33
+00:01:56,130 --> 00:01:59,750
+bất kể bạn thêm bao nhiêu phần tử, ba phần tử đó vẫn không đổi.
+
+34
+00:01:59,750 --> 00:02:03,110
+Vì vậy, đó là lý do tại sao chúng tôi giữ nguyên n và nhật ký n,
+
+35
+00:02:03,110 --> 00:02:06,460
+bởi vì cả hai đều phát triển với tất cả các yếu tố đầu vào mà chúng tôi đưa vào.
+
+36
+00:02:06,460 --> 00:02:07,500
+Đó là những gì chúng tôi đang tìm kiếm.
+
+37
+00:02:07,500 --> 00:02:09,733
+Đó là nét chung mà chúng tôi muốn biết.
+
+38
+00:02:09,733 --> 00:02:10,726
+Đó là một câu hỏi tuyệt vời.
+
+39
+00:02:18,787 --> 00:02:24,670
+>> Brian Holt: Những câu hỏi hay, hay.
+
+40
+00:02:24,670 --> 00:02:26,716
+Vì vậy, ở đây, chúng tôi sẽ tạo ra hàm giai thừa này,
+
+41
+00:02:26,716 --> 00:02:28,820
+chúng tôi đã nói về điều đó một chút.
+
+42
+00:02:28,820 --> 00:02:32,182
+Và sau đó ở phía dưới đây, chúng tôi có các bài kiểm tra đơn vị cho bạn.
+
+43
+00:02:32,182 --> 00:02:36,882
+Vì vậy, nếu bạn nhìn xuống đây, đây là một bài kiểm tra đơn vị Jasmine.
+
+44
+00:02:36,882 --> 00:02:38,664
+Đối với những bạn không quen thuộc với Jasmine,
+
+45
+00:02:38,664 --> 00:02:40,600
+đó là một khung kiểm tra đơn vị trong JavaScript.
+
+46
+00:02:41,760 --> 00:02:43,669
+Và nó hy vọng cung cấp cho bạn những lỗi hữu ích.
+
+47
+00:02:44,810 --> 00:02:47,450
+Đặc biệt là vì chúng tôi đang thực hiện đệ quy,
+
+48
+00:02:47,450 --> 00:02:50,010
+bút mã sẽ tự động chạy mã của bạn khi bạn đang nhập.
+
+49
+00:02:50,010 --> 00:02:52,770
+Vì vậy, nếu bạn có thể tưởng tượng nếu bạn đang thực hiện xâm nhập và nó đang chạy mã cho
+
+50
+00:02:52,770 --> 00:02:54,390
+bạn, bạn sẽ nhận được tràn ngăn xếp.
+
+51
+00:02:55,940 --> 00:02:58,130
+Vì vậy, hãy tiếp tục và thay đổi điều này thành xdescribe.
+
+52
+00:02:59,240 --> 00:03:02,840
+Chỉ cần đặt một dấu x trước nó, hoặc bạn cũng có thể đặt dấu x ở đây trước xit.
+
+53
+00:03:02,840 --> 00:03:04,808
+Đúng? Một trong những điều đó hoạt động tốt.
+
+54
+00:03:04,808 --> 00:03:08,420
+Điều đó sẽ ngăn các bài kiểm tra đơn vị đó chạy cho đến khi bạn sẵn sàng chạy nó và
+
+55
+00:03:08,420 --> 00:03:09,690
+sau đó bạn chỉ cần đi xóa nó.
+
+56
+00:03:09,690 --> 00:03:12,090
+Và tại thời điểm đó, tôi sẽ bắt đầu chạy lại.

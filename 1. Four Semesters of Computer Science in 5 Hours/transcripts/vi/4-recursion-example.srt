@@ -1,0 +1,763 @@
+1
+00:00:00,000 --> 00:00:04,420
+[ÂM NHẠC]
+
+2
+00:00:04,420 --> 00:00:06,465
+>> Brian Holt: Nếu chúng ta quay lại đây, tôi sẽ nhấp vào ví dụ ở đây.
+
+3
+00:00:13,474 --> 00:00:15,485
+>> Brian Holt: Trước hết, phương pháp nhỏ này ở đây,
+
+4
+00:00:15,485 --> 00:00:17,919
+về cơ bản đây là nhật ký giao diện điều khiển cho DOM [LAUGH].
+
+5
+00:00:17,919 --> 00:00:22,423
+Ý tôi là, về cơ bản bạn có thể bỏ qua nó, nhưng mỗi khi tôi làm điều đó.
+
+6
+00:00:22,423 --> 00:00:23,562
+Nó chỉ là viết một cái gì đó ở đây.
+
+7
+00:00:23,562 --> 00:00:26,504
+Hãy nói về CodePen một chút.
+
+8
+00:00:26,504 --> 00:00:29,258
+Vì vậy, trước hết, nếu tại thời điểm này bạn chưa có tài khoản CodePen.
+
+9
+00:00:29,258 --> 00:00:31,065
+Tôi sẽ tiếp tục và đề nghị bạn đăng ký một.
+
+10
+00:00:31,065 --> 00:00:34,341
+Bạn không cần phải làm thế, nhưng một, chúng rất tuyệt vời.
+
+11
+00:00:34,341 --> 00:00:40,087
+Tôi yêu những người đàn ông trên CodePen, những chàng trai và cô gái mà tôi nên nói, cả nam và nữ.
+
+12
+00:00:40,087 --> 00:00:44,819
+Và sau đó phần thứ hai là bạn có thể fork những cái này, bạn có thể nhấp vào cái fork nhỏ này
+
+13
+00:00:44,819 --> 00:00:48,448
+ở đây và sau đó nó sẽ lưu vào tài khoản CodePen của bạn.
+
+14
+00:00:48,448 --> 00:00:51,904
+Và bạn có thể tham khảo lại những điều này sau, vì vậy tôi nghĩ nó hữu ích cho bạn.
+
+15
+00:00:51,904 --> 00:00:57,460
+Được rồi, chúng ta hãy xem xét ứng dụng tồi tệ nhất của
+
+16
+00:00:57,460 --> 00:01:02,528
+đệ quy nhưng phiên bản rất cơ bản của đệ quy.
+
+17
+00:01:02,528 --> 00:01:03,901
+Khó mà nói ra được.
+
+18
+00:01:03,901 --> 00:01:05,737
+Hãy thử và nói nhanh gấp bảy lần.
+
+19
+00:01:05,737 --> 00:01:06,238
+Được chứ.
+
+20
+00:01:06,238 --> 00:01:09,163
+Vì vậy, đệ quy cơ bản.
+
+21
+00:01:09,163 --> 00:01:13,766
+Nếu bạn nhìn xuống đây, bạn có thể thấy ở đây là
+
+22
+00:01:13,766 --> 00:01:18,745
+chỉ đăng xuất 1, 2, 3, 4, 5, phải không?
+
+23
+00:01:23,182 --> 00:01:24,359
+>> Brian Holt: Vì vậy, nó giống như những gì chúng tôi đã làm ở đây.
+
+24
+00:01:24,359 --> 00:01:27,247
+Được gọi là basicRecursion với năm và một, phải không?
+
+25
+00:01:27,247 --> 00:01:30,846
+Về cơ bản tôi muốn nói, số hiện tại trong một đệ quy là bao nhiêu?
+
+26
+00:01:30,846 --> 00:01:33,830
+Và con số tối đa tôi muốn đăng xuất ở đây là bao nhiêu, được không?
+
+27
+00:01:33,830 --> 00:01:36,759
+Vì vậy, dòng đầu tiên
+
+28
+00:01:36,759 --> 00:01:42,296
+[COUGH] >> Brian Holt: Người đầu tiên
+
+29
+00:01:42,296 --> 00:01:43,265
+dòng đệ quy bất kỳ.
+
+30
+00:01:43,265 --> 00:01:47,733
+Tôi sẽ không nói bất kỳ đệ quy nào nhưng tôi sẽ nói đó là về dòng đầu tiên của bất kỳ
+
+31
+00:01:47,733 --> 00:01:51,642
+đệ quy mà tôi đã viết, vì vậy tôi sẽ chỉ ngoại suy điều đó cho bạn.
+
+32
+00:01:51,642 --> 00:01:53,909
+Và nói rằng, nó sẽ giống như tất cả các phép đệ quy bạn viết.
+
+33
+00:01:53,909 --> 00:01:57,358
+Dòng đầu tiên sẽ là trường hợp cơ sở.
+
+34
+00:01:57,358 --> 00:02:02,221
+Trường hợp cơ bản là khi bạn ngừng đệ quy và lý do tại sao bạn viết
+
+35
+00:02:02,221 --> 00:02:06,154
+cuz đầu tiên nếu bạn không viết nó, bạn sẽ bị tràn ngăn xếp.
+
+36
+00:02:06,154 --> 00:02:09,401
+Đó là lý do tại sao bạn phải có hộp đựng cơ sở của mình và
+
+37
+00:02:09,401 --> 00:02:14,710
+bạn muốn nó giống như điều đó đã được xử lý rất tốt trước, như khi nào tôi dừng lại?
+
+38
+00:02:14,710 --> 00:02:18,769
+Vì vậy, trong trường hợp cụ thể này, tôi muốn dừng khi dòng điện lớn hơn mức tối đa,
+
+39
+00:02:18,769 --> 00:02:22,709
+ngay sau khi nó lớn hơn mức tối đa, nó giống như không sao, xong hãy ra khỏi đây.
+
+40
+00:02:22,709 --> 00:02:25,280
+Vậy đây là cái gì, được không?
+
+41
+00:02:25,280 --> 00:02:29,087
+Và sau đó tất cả những gì tôi sẽ làm là viết ra hiện tại là gì đối với DOM, và thế là xong.
+
+42
+00:02:29,087 --> 00:02:32,750
+Và sau đó, tôi sẽ tự gọi nó là basicRecursion,
+
+43
+00:02:32,750 --> 00:02:36,081
+đúng không? BasicRecursion đang gọi basicRecursion.
+
+44
+00:02:36,081 --> 00:02:40,332
+Và tôi sẽ gọi nó bằng max bởi vì tôi sẽ tiếp tục vượt qua mức tối đa đó.
+
+45
+00:02:40,332 --> 00:02:45,251
+Và sau đó tôi sẽ gọi (hiện tại + 1) phải không?
+
+46
+00:02:45,251 --> 00:02:50,688
+Vì vậy, hãy lấy cái này.
+
+47
+00:02:56,860 --> 00:03:00,043
+>> Brian Holt: Vì vậy, như bạn có thể tưởng tượng, vì vậy chúng tôi sẽ gọi nó đầu tiên với một phải không?
+
+48
+00:03:00,043 --> 00:03:02,105
+Đâu mà?
+
+49
+00:03:02,105 --> 00:03:08,825
+Hãy lấy màu trắng ở đây >> Brian Holt: Vì vậy
+
+50
+00:03:08,825 --> 00:03:10,716
+chúng tôi có màu trắng, chúng tôi đi.
+
+51
+00:03:10,716 --> 00:03:14,743
+Vì vậy, đầu tiên chúng tôi gọi bằng một, vì vậy đó là những gì hiện tại sẽ là và
+
+52
+00:03:14,743 --> 00:03:17,537
+thì nếu bạn chỉ tưởng tượng đây là một ngăn xếp cuộc gọi.
+
+53
+00:03:17,537 --> 00:03:24,237
+Vì vậy, chúng tôi gọi nó với 5,1 và sau đó nó sẽ gọi nó với 5,2, phải không?
+
+54
+00:03:24,237 --> 00:03:29,637
+Sau đó, nó sẽ gọi nó bằng 5, 3, rồi nó sẽ gọi nó bằng 5,
+
+55
+00:03:29,637 --> 00:03:34,408
+4, 5, 5, và thực tế, nó sẽ gọi nó bằng 5,
+
+56
+00:03:34,408 --> 00:03:38,127
+6, để tôi đặt nó ở đây, 5, 6, phải không?
+
+57
+00:03:38,127 --> 00:03:41,604
+Nhưng một khi nó đạt đến 6 lớn hơn 5, phải không?
+
+58
+00:03:41,604 --> 00:03:44,763
+Geez, tôi không thể vẽ, nhưng bạn hiểu đúng.
+
+59
+00:03:44,763 --> 00:03:49,554
+Đó là một dòng điện lớn hơn toán học, và tại thời điểm đó bắt đầu quay trở lại, phải không?
+
+60
+00:03:49,554 --> 00:03:53,448
+Và sau đó tại thời điểm đó, nó sẽ bắt đầu đi xuống ngăn xếp, phải không?
+
+61
+00:03:53,448 --> 00:03:55,419
+Vì vậy, nó sẽ bắt đầu xuất hiện những phiếu mua hàng này, vì vậy nó sẽ làm điều này,
+
+62
+00:03:55,419 --> 00:03:56,015
+nó sẽ làm điều này.
+
+63
+00:03:56,015 --> 00:03:59,975
+Ngay bây giờ, chúng tôi không làm bất cứ điều gì sau khi đệ quy dựa trên.
+
+64
+00:03:59,975 --> 00:04:03,279
+Nhưng tại thời điểm này, chúng ta có thể làm điều gì đó sau khi quyền đệ quy dựa trên quyền.
+
+65
+00:04:03,279 --> 00:04:08,244
+Vì vậy, bạn có thể làm mọi thứ lên và xuống ngăn xếp, phải không?
+
+66
+00:04:08,244 --> 00:04:10,851
+Và rồi cuối cùng bạn sẽ đến đó, và rồi khi nó kết thúc, phải không?
+
+67
+00:04:10,851 --> 00:04:11,870
+Đó là ý chính cơ bản ở đây.
+
+68
+00:04:16,393 --> 00:04:17,041
+>> Brian Holt: Vậy còn câu hỏi nào không?
+
+69
+00:04:17,041 --> 00:04:19,886
+Đây là một ứng dụng rất vô giá trị của đệ quy.
+
+70
+00:04:19,886 --> 00:04:21,815
+Điều gì đó mà bạn thực sự không nên làm.
+
+71
+00:04:21,815 --> 00:04:22,789
+Điều này nên được thực hiện với một vòng lặp, phải không?
+
+72
+00:04:22,789 --> 00:04:27,797
+Nhưng đó chỉ là để chứng minh cho bạn thấy nó dùng để làm gì hoặc nó như thế nào.
+
+73
+00:04:27,797 --> 00:04:33,320
+Vì vậy, hãy xem xét một ứng dụng thực tế
+
+74
+00:04:33,320 --> 00:04:37,359
+Trình tự Fibonacci, phải không?
+
+75
+00:04:37,359 --> 00:04:38,813
+Vì vậy, chúng ta hãy đưa ra một lần nữa.
+
+76
+00:04:38,813 --> 00:04:39,486
+Đóng đó.
+
+77
+00:04:42,921 --> 00:04:43,785
+>> Brian Holt: Vì vậy, nếu bạn nhìn xuống đây.
+
+78
+00:04:47,130 --> 00:04:49,440
+>> Brian Holt: Hầu hết chúng ta đều quen thuộc với chuỗi Fibonacci nhưng
+
+79
+00:04:49,440 --> 00:04:50,286
+Tôi sẽ giải thích nó.
+
+80
+00:04:50,286 --> 00:04:55,575
+Tôi đã hứa cái này sẽ không có mathy và nó lại có mathy, xin lỗi không xin lỗi.
+
+81
+00:04:55,575 --> 00:04:56,248
+Được thôi, nếu vậy
+
+82
+00:04:56,248 --> 00:05:02,241
+Chuỗi Fibonacci về cơ bản là hai thuật ngữ trước đó được cộng lại với nhau, phải không?
+
+83
+00:05:02,241 --> 00:05:06,603
+Vì vậy, 1 cộng với 1 là 2, 2 cộng với 1 là 3, 3 cộng với 2 là 5, 5 cộng với 3 là 8, đúng, v.v. và
+
+84
+00:05:06,603 --> 00:05:09,883
+vân vân và sau đó những con số đó bắt đầu trở nên khá lớn khi bạn
+
+85
+00:05:09,883 --> 00:05:12,096
+bắt đầu cao hơn và cao hơn, phải không?
+
+86
+00:05:12,096 --> 00:05:17,829
+Vậy cái này cộng với cái này, số hạng 18 cộng với số hạng 19 là số hạng thứ 20 phải không?
+
+87
+00:05:20,562 --> 00:05:24,225
+>> Brian Holt: Vì vậy, hãy xem xét thực sự bạn sẽ làm điều đó như thế nào khi sử dụng đệ quy.
+
+88
+00:05:24,225 --> 00:05:29,351
+Vì vậy, trước tiên hãy thảo luận về cách chúng tôi đã giải quyết bằng cách sử dụng đệ quy
+
+89
+00:05:29,351 --> 00:05:34,262
+trong trường hợp cụ thể này, trong khi chúng ta có thuật ngữ thứ 18
+
+90
+00:05:34,262 --> 00:05:39,408
+được xác định là số hạng thứ 17 cộng với số hạng thứ 16.
+
+91
+00:05:39,408 --> 00:05:44,292
+Vì vậy, Fibonacci được định nghĩa đệ quy bởi vì nó được định nghĩa
+
+92
+00:05:44,292 --> 00:05:46,697
+bằng cách sử dụng Fibonacci's, phải không?
+
+93
+00:05:46,697 --> 00:05:50,398
+Vì vậy, đó là lý do tại sao đệ quy có lợi cho vấn đề này.
+
+94
+00:05:50,398 --> 00:05:54,199
+Vì vậy, chúng tôi có Fibonacci, lấy một số và
+
+95
+00:05:54,199 --> 00:05:59,069
+có thể là bất kỳ số nào và sau đó điều đầu tiên chúng ta làm là gì?
+
+96
+00:05:59,069 --> 00:06:00,457
+Trường hợp cơ sở, phải không?
+
+97
+00:06:00,457 --> 00:06:05,133
+Vì vậy, nếu nó nhỏ hơn hoặc bằng hai, đó chỉ là một số nhất định.
+
+98
+00:06:05,133 --> 00:06:06,533
+Nó chỉ là một, phải không?
+
+99
+00:06:06,533 --> 00:06:11,253
+Đó là điều đã cho trong chuỗi Fibonacci như tôi đã hứa.
+
+100
+00:06:11,253 --> 00:06:16,362
+Tôi đoán một lưu ý nhỏ khác ở đây.
+
+101
+00:06:16,362 --> 00:06:22,666
+Bạn có thể làm, nếu n === 0,
+
+102
+00:06:22,666 --> 00:06:27,718
+hoặc n === 1, phải không?
+
+103
+00:06:27,718 --> 00:06:30,909
+Bởi vì tất cả những thứ đó thực sự là những thứ mà chúng ta dự đoán sẽ thấy, phải không?
+
+104
+00:06:30,909 --> 00:06:33,663
+Fibonacci của một tiêu cực không thực sự có nhiều ý nghĩa.
+
+105
+00:06:33,663 --> 00:06:34,910
+Ít nhất thì nó không với tôi.
+
+106
+00:06:34,910 --> 00:06:36,262
+Tôi không biết nó làm gì.
+
+107
+00:06:36,262 --> 00:06:41,441
+Tuy nhiên, với trường hợp cơ bản của bạn là, bạn muốn khá tích cực vì điều gì sẽ xảy ra nếu
+
+108
+00:06:41,441 --> 00:06:47,015
+ai đó ném vào đó như phủ định một, phủ định hai, hoặc đại loại như vậy.
+
+109
+00:06:47,015 --> 00:06:50,415
+Vỏ cơ sở của bạn sau đó thoát ra khỏi đúng, và sau đó là bạn.
+
+110
+00:06:50,415 --> 00:06:52,740
+Tôi không biết chuyện này sẽ ra sao.
+
+111
+00:06:52,740 --> 00:06:56,880
+Nó chỉ sẽ tái diễn vô hạn bởi vì bạn sẽ thêm
+
+112
+00:06:56,880 --> 00:07:00,816
+âm một đến âm hai, âm ba đến âm bốn.
+
+113
+00:07:00,816 --> 00:07:04,796
+Và nó sẽ tái diễn vào quên lãng, phải không?
+
+114
+00:07:04,796 --> 00:07:07,335
+Vì vậy, đó là lý do tại sao bạn muốn làm những việc như thế này,
+
+115
+00:07:07,335 --> 00:07:11,384
+nơi mà nó khá hung hãn về việc trường hợp cơ sở của bạn sẽ như thế nào.
+
+116
+00:07:11,384 --> 00:07:15,980
+Vì bạn muốn bảo vệ mình chống lại bạn, chính bạn hoặc người khác, phải không?
+
+117
+00:07:15,980 --> 00:07:20,130
+Vì ai đó vào một lúc nào đó sẽ gọi Fibonacci bằng giá trị âm, và
+
+118
+00:07:20,130 --> 00:07:22,180
+thì toàn bộ chương trình của bạn sẽ nổ tung.
+
+119
+00:07:28,034 --> 00:07:30,501
+>> Brian Holt: Được rồi, vì vậy nếu nó nhỏ hơn hoặc
+
+120
+00:07:30,501 --> 00:07:34,363
+bằng hai thì bạn chỉ trả lại một, phải không?
+
+121
+00:07:34,363 --> 00:07:35,181
+Đó là cái đã cho.
+
+122
+00:07:35,181 --> 00:07:43,411
+Ngược lại, chúng ta sẽ trả về Fibonacci của n -1 cộng với n của fibonacci của n- 2.
+
+123
+00:07:43,411 --> 00:07:48,263
+Điều đó cảm thấy, ít nhất là đối với tôi, nó trông rất đẹp,
+
+124
+00:07:48,263 --> 00:07:54,619
+nó được viết rất tốt và nó khá rõ ràng về những gì nó đang làm, phải không?
+
+125
+00:07:54,619 --> 00:07:55,779
+Bạn chỉ là một người hàng đầu.
+
+126
+00:07:55,779 --> 00:08:02,016
+Nếu tôi có fibonacci (n), nó được định nghĩa là fibonacci (n-
+
+127
+00:08:02,016 --> 00:08:06,797
+1) + fibonacci (n- 2), nó hoạt động tốt.
+
+128
+00:08:06,797 --> 00:08:08,689
+Vâng, những thứ khá thú vị.
+
+129
+00:08:08,689 --> 00:08:12,800
+Tuy nhiên, hãy nói về lý do tại sao điều này thực sự là một loại điên rồ.
+
+130
+00:08:12,800 --> 00:08:20,565
+[LAUGH] Chà, quay lại bảng điều khiển của chúng ta ở đây.
+
+131
+00:08:20,565 --> 00:08:24,294
+Đi xuống đây là con số 6765, phải không?
+
+132
+00:08:24,294 --> 00:08:25,245
+Đó là một con số khổng lồ.
+
+133
+00:08:25,245 --> 00:08:29,969
+Bạn phải nghĩ về những gì đang thực sự xảy ra bên dưới chiếc mũ trùm ở đây.
+
+134
+00:08:29,969 --> 00:08:34,759
+Chúng tôi thực sự thêm một vì mọi thứ khác chỉ kết thúc là một.
+
+135
+00:08:34,759 --> 00:08:39,352
+Chúng tôi không có giá trị nào lớn hơn bắt đầu lớn hơn một, vì vậy
+
+136
+00:08:39,352 --> 00:08:45,935
+điều đó nói rằng để đạt được con số này, chúng tôi đã thêm 1 vào chính nó, 6.765 lần.
+
+137
+00:08:45,935 --> 00:08:51,255
+Cách nào không phải là cách hiệu quả nhất để tính ra một số, phải không?
+
+138
+00:08:51,255 --> 00:08:56,041
+Vì vậy, đó là lý do tại sao giải pháp này thực sự tệ vì
+
+139
+00:08:56,041 --> 00:09:00,837
+chúng ta đã gọi hàm ít nhất 6,765 lần, phải không?
+
+140
+00:09:00,837 --> 00:09:03,569
+Vì vậy, mặc dù điều này rất thanh lịch và hoạt động rất tốt cho
+
+141
+00:09:03,569 --> 00:09:07,955
+vấn đề này rất dễ đọc, bạn thực sự có thể trong trường hợp cụ thể này.
+
+142
+00:09:07,955 --> 00:09:12,356
+Nếu đó là một nút thắt cổ chai cho bạn, bạn thực sự có thể muốn viết điều này bằng cách sử dụng
+
+143
+00:09:12,356 --> 00:09:15,949
+vòng lặp và phiên bản vòng lặp của điều này là thô và khó chịu.
+
+144
+00:09:15,949 --> 00:09:19,307
+Ý tôi là, dù sao thì nó chắc chắn không phải là trang nhã.
+
+145
+00:09:19,307 --> 00:09:20,556
+Nhưng trong mọi trường hợp,
+
+146
+00:09:20,556 --> 00:09:26,459
+đó là cách bạn sẽ giải quyết vấn đề này vốn có lợi cho phép đệ quy.
+
+147
+00:09:26,459 --> 00:09:29,356
+Và hãy xem, đây là những đánh đổi mà bạn cần phải thực hiện trong đầu, giống như,
+
+148
+00:09:29,356 --> 00:09:31,574
+Tôi có đủ khả năng để có mã thanh lịch ở đây, phải không.
+
+149
+00:09:31,574 --> 00:09:34,485
+Bởi vì nếu bạn gọi điều này một lần một ngày thì cái quái gì vậy,
+
+150
+00:09:34,485 --> 00:09:37,143
+thêm số của bạn nhiều lần và gọi nó là tốt.
+
+151
+00:09:37,143 --> 00:09:40,790
+Nhưng nếu điều này được thực hiện với mọi yêu cầu của người dùng thì giống như,
+
+152
+00:09:40,790 --> 00:09:44,089
+bạn có thể muốn sử dụng vòng lặp hoặc lặp lại cho điều đó.
+
+153
+00:09:44,089 --> 00:09:45,602
+Có câu hỏi nào không?
+
+154
+00:09:50,444 --> 00:09:52,520
+>> Người nói 2: Được rồi, [COUGH] chữ O lớn trên cái này là gì?
+
+155
+00:09:52,520 --> 00:09:56,020
+>> Brian Holt: Có lẽ sẽ là Big O trong cái này.
+
+156
+00:10:01,664 --> 00:10:03,362
+>> Brian Holt: Bạn phải trải qua mọi thứ ít nhất một lần
+
+157
+00:10:08,035 --> 00:10:08,551
+>> Brian Holt: Và đăng nhập,
+
+158
+00:10:08,551 --> 00:10:10,467
+Tôi đoán, tôi thực sự không biết.
+
+159
+00:10:10,467 --> 00:10:14,056
+Vì vậy, đó là một câu hỏi phỏng đoán nhưng hay.
+
+160
+00:10:14,056 --> 00:10:19,327
+>> Người nói 3: Còn một câu hỏi nữa, bạn có thể giải thích cách hoạt động của hàm WR không?
+
+161
+00:10:19,327 --> 00:10:23,719
+>> Brian Holt: Chắc chắn rồi, từ giá trị dịch chuyển, được chứ?
+
+162
+00:10:23,719 --> 00:10:28,467
+WR, đây là một số phép thuật của ES6.
+
+163
+00:10:28,467 --> 00:10:32,507
+Được rồi, đây là một hàm mũi tên.
+
+164
+00:10:32,507 --> 00:10:38,355
+Hàm mũi tên chỉ là một cách khác để viết một hàm trong JavaScript.
+
+165
+00:10:38,355 --> 00:10:41,652
+Đây là một tham số mặc định.
+
+166
+00:10:41,652 --> 00:10:44,743
+Có lẽ sẽ hữu ích nếu chỉ viết cái này.
+
+167
+00:10:51,197 --> 00:10:53,322
+>> Brian Holt: Vì vậy, một cách khác để viết một hàm, phải không?
+
+168
+00:10:53,322 --> 00:10:57,516
+Đây là một tham số mặc định, nó cho biết nếu bạn không được cung cấp bất cứ thứ gì cho
+
+169
+00:10:57,516 --> 00:10:59,730
+điều này sau đó có một tham số mặc định.
+
+170
+00:10:59,730 --> 00:11:04,970
+Vì vậy, một cách để làm điều đó là nếu tôi không nhận được gì từ tin nhắn,
+
+171
+00:11:04,970 --> 00:11:07,847
+thì tin nhắn tương đương với điều đó, phải không?
+
+172
+00:11:07,847 --> 00:11:09,240
+Bất kể tôi đặt bao nhiêu.
+
+173
+00:11:09,240 --> 00:11:14,212
+Và sau đó nói ngay tại đây,
+
+174
+00:11:14,212 --> 00:11:17,852
+là document.write.
+
+175
+00:11:17,852 --> 00:11:19,896
+Đây là một chuỗi mẫu ES6,
+
+176
+00:11:19,896 --> 00:11:25,157
+mà nếu ai đó đã từng viết trước cú pháp đó sẽ trông quen thuộc với bạn.
+
+177
+00:11:25,157 --> 00:11:31,896
+Về cơ bản, nó nói thay thế cái này ở đây hoặc
+
+178
+00:11:31,896 --> 00:11:36,111
+bạn chỉ có thể làm br cộng với tin nhắn.
+
+179
+00:11:36,111 --> 00:11:36,943
+Đó cũng là điều tương tự.
+
+180
+00:11:36,943 --> 00:11:40,235
+Vì vậy, đây là phiên bản ES5 của điều đó.
+
+181
+00:11:40,235 --> 00:11:44,315
+Giờ độc thân cũng tương đương.
+
+182
+00:11:44,315 --> 00:11:46,702
+Vì vậy, câu hỏi hay.
+
+183
+00:11:51,841 --> 00:11:53,636
+>> Người nói 4: Về mặt kỹ thuật, bạn đang trả lại tài liệu, phải không?
+
+184
+00:11:53,636 --> 00:11:56,911
+>> Brian Holt: Vâng, đây là một sự trở lại ngầm.
+
+185
+00:11:56,911 --> 00:12:02,375
+Tôi có nghĩa là tôi có thể làm điều này và nó không phải là một sự trở lại ngầm.
+
+186
+00:12:02,375 --> 00:12:06,588
+Trong trường hợp này, nó không quan trọng vì tôi không quan tâm những gì nó trả về.
+
+187
+00:12:06,588 --> 00:12:11,313
+Nhưng nếu bạn bỏ dấu ngoặc nhọn trong một hàm mũi tên,
+
+188
+00:12:11,313 --> 00:12:13,542
+đó là một sự trở lại ngầm.
+
+189
+00:12:16,872 --> 00:12:17,988
+>> Brian Holt: Chúng tôi đã đánh cắp cái này từ CoffeeScript.
+
+190
+00:12:17,988 --> 00:12:23,157
+Không phải là một người hâm mộ CoffeeScript lớn, nhưng điều này hóa ra ổn.
+
+191
+00:12:23,157 --> 00:12:24,150
+Vì vậy, cảm ơn, CoffeeScript.

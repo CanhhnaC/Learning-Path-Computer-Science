@@ -1,0 +1,291 @@
+1
+00:00:00,004 --> 00:00:04,077
+[ÂM NHẠC]
+
+2
+00:00:04,077 --> 00:00:06,529
+>> Diễn giả 1: Hãy thực sự bắt đầu đi vào các khái niệm ứng dụng.
+
+3
+00:00:06,529 --> 00:00:10,979
+Đây hoàn toàn là khái niệm toán học và tôi nghĩ đó là điều duy nhất
+
+4
+00:00:10,979 --> 00:00:14,338
+chúng tôi làm theo cách đó, mọi thứ khác sẽ được áp dụng ở đây.
+
+5
+00:00:14,338 --> 00:00:19,023
+Vậy hãy nói về đệ quy,
+
+6
+00:00:19,023 --> 00:00:22,544
+khá [COUGH] xin lỗi.
+
+7
+00:00:22,544 --> 00:00:27,060
+Một phần khá quan trọng của phát triển web ở đây hoặc chỉ viết mã nói chung.
+
+8
+00:00:28,440 --> 00:00:31,540
+Vì vậy, đệ quy là khi bạn định nghĩa một cái gì đó theo nghĩa của chính nó.
+
+9
+00:00:31,540 --> 00:00:34,620
+Vì vậy, nếu bạn từng hỏi ai đó định nghĩa của một từ và
+
+10
+00:00:34,620 --> 00:00:37,420
+họ chỉ sử dụng cùng một từ để định nghĩa chính nó.
+
+11
+00:00:37,420 --> 00:00:40,469
+Một, thật là khó chịu, vì tôi đã không nói với bạn điều gì.
+
+12
+00:00:40,469 --> 00:00:43,490
+Vì vậy, giống như đệ quy rất không hữu ích trong tiếng Anh.
+
+13
+00:00:43,490 --> 00:00:47,320
+Tuy nhiên, nó lại rất hữu ích trong khoa học máy tính.
+
+14
+00:00:47,320 --> 00:00:49,365
+Vì vậy, tôi nghĩ cái tôi có ở đây là máy tính.
+
+15
+00:00:49,365 --> 00:00:51,065
+Vậy, máy tính là gì?
+
+16
+00:00:51,065 --> 00:00:53,483
+Đó là thứ tính toán mọi thứ, giống như một thứ gì đó tương tự.
+
+17
+00:00:53,483 --> 00:00:55,052
+Đó sẽ là một định nghĩa đệ quy.
+
+18
+00:00:55,052 --> 00:00:59,381
+Nó sử dụng thứ gì đó để xác định chính nó hoặc nếu bạn nhìn vào hình ảnh này ngay tại đây,
+
+19
+00:00:59,381 --> 00:01:02,420
+chúng ta có một tam giác được tạo thành từ các tam giác khác.
+
+20
+00:01:02,420 --> 00:01:07,080
+Đây là một tam giác được xác định đệ quy, bởi vì một tam giác được tạo thành từ
+
+21
+00:01:07,080 --> 00:01:08,760
+hình tam giác, được tạo thành từ các hình tam giác nhỏ hơn,
+
+22
+00:01:08,760 --> 00:01:11,250
+được tạo thành từ các tam giác nhỏ hơn bên phải.
+
+23
+00:01:11,250 --> 00:01:13,740
+Đó là bản chất của đệ quy.
+
+24
+00:01:15,620 --> 00:01:18,354
+Khi được áp dụng cho khoa học máy tính, về cơ bản,
+
+25
+00:01:18,354 --> 00:01:20,696
+bạn xác định một hàm gọi chính nó.
+
+26
+00:01:20,696 --> 00:01:23,456
+Vì vậy, bạn đang sử dụng một hàm để xác định chính nó,
+
+27
+00:01:23,456 --> 00:01:26,017
+mà dường như tâm trí khá uốn cong và nó là.
+
+28
+00:01:26,017 --> 00:01:29,579
+Giống như lần đầu tiên bạn học đệ quy, thật khó khăn.
+
+29
+00:01:29,579 --> 00:01:34,377
+Nhưng một khi bạn có được nó, thực sự bạn bắt đầu nhận ra rằng nó khó, nhưng nó đơn giản.
+
+30
+00:01:34,377 --> 00:01:40,690
+Như tôi đoán, đó là những gì tôi nhận được và nó được sử dụng ở mọi nơi.
+
+31
+00:01:40,690 --> 00:01:42,680
+Đó là một kỹ thuật rất hữu ích.
+
+32
+00:01:44,020 --> 00:01:49,004
+Tại sao nó lại rất hữu ích là bạn có các cuộc gọi đệ quy này và
+
+33
+00:01:49,004 --> 00:01:53,901
+mỗi cấp của cuộc gọi đệ quy có thể duy trì trạng thái riêng của nó,
+
+34
+00:01:53,901 --> 00:01:56,365
+mà kết quả là rất hữu ích.
+
+35
+00:01:56,365 --> 00:02:01,434
+Chúng tôi sẽ sử dụng cái đó sau này khi chúng tôi bắt đầu đi vào như sắp xếp hợp nhất,
+
+36
+00:02:01,434 --> 00:02:04,478
+bởi vì điều đó trở nên rất cần thiết đối với chúng tôi.
+
+37
+00:02:04,478 --> 00:02:07,860
+Đệ quy rất, rất hữu ích cho một số vấn đề.
+
+38
+00:02:07,860 --> 00:02:12,499
+Tuy nhiên, nó mang lại một chút chi phí cho nó.
+
+39
+00:02:12,499 --> 00:02:16,188
+Bởi vì bạn chỉ thực hiện tất cả các lệnh gọi đến hàm này, nó bắt đầu thêm nhiều hơn và
+
+40
+00:02:16,188 --> 00:02:17,555
+nhiều chức năng hơn cho ngăn xếp.
+
+41
+00:02:17,555 --> 00:02:19,618
+Chúng ta cũng sẽ nói về ngăn xếp sau.
+
+42
+00:02:19,618 --> 00:02:23,454
+Ý tưởng cơ bản là việc gọi một hàm không nhất thiết phải miễn phí.
+
+43
+00:02:23,454 --> 00:02:24,513
+Nó khá gần với miễn phí.
+
+44
+00:02:24,513 --> 00:02:26,817
+Vì vậy, phần lớn, chúng ta thường bỏ qua chi phí.
+
+45
+00:02:26,817 --> 00:02:29,098
+Nhưng khi bạn bắt đầu gọi một hàm là 100,
+
+46
+00:02:29,098 --> 00:02:32,588
+200 lần thực sự mang lại một chi phí, đặc biệt là với bộ nhớ.
+
+47
+00:02:32,588 --> 00:02:37,527
+Vì máy tính của bạn bây giờ phải theo dõi 200 cuộc gọi bộ nhớ khác nhau và
+
+48
+00:02:37,527 --> 00:02:41,150
+tại một số điểm, một số người trong chúng ta sẽ thấy tràn ngăn xếp.
+
+49
+00:02:42,230 --> 00:02:44,894
+Giống như trước hết, mọi người đều sử dụng tràn ngăn xếp.
+
+50
+00:02:44,894 --> 00:02:49,499
+Đó là cách tôi học lập trình dưới dạng sao chép và dán nó từ tràn ngăn xếp,
+
+51
+00:02:49,499 --> 00:02:51,430
+nhân tiện là một kỹ năng.
+
+52
+00:02:51,430 --> 00:02:55,660
+[LAUGH] Nhưng đó là nguồn gốc của tràn ngăn xếp,
+
+53
+00:02:55,660 --> 00:03:00,332
+nếu bạn đệ quy xuống quá xa, thường bằng đệ quy vô hạn.
+
+54
+00:03:00,332 --> 00:03:02,398
+Giống như nếu bạn có một đệ quy cứ tiếp diễn mãi mãi,
+
+55
+00:03:02,398 --> 00:03:04,478
+máy tính của bạn sẽ nói, bạn đang làm cái quái gì vậy?
+
+56
+00:03:04,478 --> 00:03:07,568
+Tôi sẽ nổ tung và sau đó nó sẽ nổ tung.
+
+57
+00:03:07,568 --> 00:03:10,982
+Vì vậy, đó là những gì xảy ra tràn ngăn xếp khi bạn bị nguyền rủa quá mức và
+
+58
+00:03:10,982 --> 00:03:14,914
+cuối cùng máy tính cho biết, tôi đã hết khả năng theo dõi các cuộc gọi mới vào bộ nhớ.
+
+59
+00:03:17,202 --> 00:03:21,586
+>> Diễn giả 1: Vì vậy, nó không miễn phí, đó là lý do tại sao đệ quy hơi giống một công cụ nặng
+
+60
+00:03:21,586 --> 00:03:23,978
+không phải là cái mà bạn muốn áp dụng nhẹ.
+
+61
+00:03:23,978 --> 00:03:26,892
+Nếu bạn có thể thực hiện lặp đi lặp lại, đó thường là cách ưu tiên.
+
+62
+00:03:26,892 --> 00:03:31,627
+Lặp lại, có nghĩa là bạn làm điều đó với các vòng lặp thay vì đệ quy.
+
+63
+00:03:31,627 --> 00:03:36,595
+Tuy nhiên, bạn có thể nhớ trước đó tôi đã nói điều đó ở đâu,
+
+64
+00:03:36,595 --> 00:03:40,790
+bạn muốn ưu tiên khả năng đọc hơn hiệu suất.
+
+65
+00:03:40,790 --> 00:03:44,740
+Vì vậy, nếu đệ quy làm cho một thứ gì đó rất dễ đọc đối với ai đó, bạn sẽ thấy ở đây
+
+66
+00:03:44,740 --> 00:03:48,017
+trong một chút mà nó hoàn toàn có, làm điều đó cho một số vấn đề.
+
+67
+00:03:48,017 --> 00:03:49,551
+Bạn muốn điều đó.
+
+68
+00:03:49,551 --> 00:03:50,798
+Và sau đó nếu bạn đi sau và
+
+69
+00:03:50,798 --> 00:03:53,691
+bạn nhận ra rằng đây là một điểm nghẽn lớn trong chương trình của bạn,
+
+70
+00:03:53,691 --> 00:03:57,682
+đó là tại thời điểm đó bạn được hoạt động để lặp lại thay vì đệ quy.
+
+71
+00:03:57,682 --> 00:04:02,180
+Vì vậy, luôn luôn, luôn luôn, luôn luôn ưu tiên khả năng đọc.
+
+72
+00:04:02,180 --> 00:04:05,390
+Bạn sẽ làm cho bản thân và những người khác rất, rất hạnh phúc về lâu dài.
+
+73
+00:04:07,912 --> 00:04:11,460
+Nói cách khác, đừng khéo léo trừ khi bạn bắt buộc phải như vậy.

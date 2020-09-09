@@ -1,0 +1,395 @@
+1
+00:00:00,000 --> 00:00:10,000
+[ÂM NHẠC]
+
+2
+00:00:39,194 --> 00:00:42,724
+>> Brian Holt: Tôi là Brian Holt, là nhà phát triển web chuyên nghiệp cho
+
+3
+00:00:42,724 --> 00:00:45,170
+khoảng 5-6 năm nay.
+
+4
+00:00:45,170 --> 00:00:49,539
+Trước đó là tại Reddit cho đến khoảng 18 tháng trước Gần đây
+
+5
+00:00:49,539 --> 00:00:53,060
+chuyển đến San Francisco từ Thành phố Salt Lake.
+
+6
+00:00:54,570 --> 00:00:58,647
+Mọi người ở Minnesota ở đây đều biết lạnh có nghĩa là gì,
+
+7
+00:00:58,647 --> 00:01:02,489
+vì vậy cuối cùng tôi đã thoát khỏi điều đó và đến San Francisco.
+
+8
+00:01:02,489 --> 00:01:05,230
+Nhưng vâng, hiện đang làm việc tại Netflix, rất thú vị.
+
+9
+00:01:05,230 --> 00:01:08,435
+Tôi làm việc trên trải nghiệm không phải thành viên, đó là
+
+10
+00:01:08,435 --> 00:01:12,030
+như mỗi khi bạn đăng nhập vào Netflix hoặc quản lý tài khoản của mình, tôi sẽ làm tất cả những việc đó.
+
+11
+00:01:13,370 --> 00:01:16,630
+Hoặc tôi thuộc nhóm những người làm công việc đó, tôi nên nói.
+
+12
+00:01:16,630 --> 00:01:18,730
+Nếu bạn chưa có, hãy mở liên kết này.
+
+13
+00:01:18,730 --> 00:01:22,870
+Tuyên bố từ chối trách nhiệm khác là tôi hơi tắc nghẽn,
+
+14
+00:01:22,870 --> 00:01:25,450
+vì vậy nếu tôi nói như vậy, đó là bởi vì tôi là như vậy.
+
+15
+00:01:26,680 --> 00:01:28,960
+Vì vậy, có, hãy mở cái này, nó sẽ đưa bạn đến trang web này.
+
+16
+00:01:28,960 --> 00:01:30,240
+Bạn cũng có thể mở URL đó,
+
+17
+00:01:30,240 --> 00:01:32,950
+điều này có vẻ dễ dàng hơn một chút để gõ lên đó.
+
+18
+00:01:35,310 --> 00:01:38,130
+Thật tuyệt và đây có nghĩa là một hội thảo tương tác nên
+
+19
+00:01:38,130 --> 00:01:41,170
+những người trong số bạn có câu hỏi, vui lòng hỏi họ khi bạn có chúng.
+
+20
+00:01:42,500 --> 00:01:45,160
+Chỉ cần bạn ngẩng đầu lên và tôi sẽ bảo bạn im lặng hoặc đặt một câu hỏi,
+
+21
+00:01:45,160 --> 00:01:46,380
+một trong hai.
+
+22
+00:01:46,380 --> 00:01:49,470
+Và đối với những người cuối cùng bạn xem video này sau,
+
+23
+00:01:49,470 --> 00:01:52,520
+hãy hỏi tôi trên Twitter, gửi email cho tôi, tất cả những thứ như vậy.
+
+24
+00:01:52,520 --> 00:01:57,550
+Tôi luôn sẵn sàng trả lời các câu hỏi, thật tuyệt.
+
+25
+00:01:57,550 --> 00:02:01,049
+Vâng, chúng ta hãy bắt đầu.
+
+26
+00:02:01,049 --> 00:02:06,450
+Rõ ràng là được, vậy là bốn học kỳ của khoa học máy tính.
+
+27
+00:02:09,190 --> 00:02:13,220
+Đó là một tiêu đề đầy tham vọng và hy vọng hầu hết các công cụ dò tìm nhảm nhí của bạn
+
+28
+00:02:13,220 --> 00:02:16,612
+đang đi ra ngoài và nói như thể bạn không thể làm bốn học kỳ trong sáu giờ.
+
+29
+00:02:16,612 --> 00:02:18,920
+Trước hết, chúng ta sẽ học bốn học kỳ và
+
+30
+00:02:18,920 --> 00:02:22,540
+điều khác là chúng tôi sẽ không làm sáu giờ, có lẽ sẽ lâu hơn thế.
+
+31
+00:02:22,540 --> 00:02:28,550
+Vì vậy, nằm ở cả hai tài khoản, nhưng hy vọng chúng tôi vẫn có thể nhận được điều gì đó hữu ích cho bạn.
+
+32
+00:02:31,030 --> 00:02:32,320
+Tại sao tôi viết hội thảo này.
+
+33
+00:02:32,320 --> 00:02:34,950
+Tôi viết nó bởi vì tôi rất thất vọng.
+
+34
+00:02:34,950 --> 00:02:38,980
+Ý tôi là, tôi đã viết nó ban đầu vì tôi thất vọng với quá trình phỏng vấn cho
+
+35
+00:02:38,980 --> 00:02:40,220
+trở thành kỹ sư.
+
+36
+00:02:40,220 --> 00:02:44,200
+Họ hỏi rất nhiều câu hỏi ngu ngốc, siêu thuật toán này, để
+
+37
+00:02:44,200 --> 00:02:47,310
+phần lớn, không thực sự áp dụng cho hầu hết công việc hàng ngày của bạn.
+
+38
+00:02:47,310 --> 00:02:50,160
+Ý tôi là chúng tôi đã hỏi một số người trong số họ tại Netflix vì nó thực sự áp dụng cho
+
+39
+00:02:50,160 --> 00:02:51,270
+một số công việc chúng tôi làm tại Netflix,
+
+40
+00:02:51,270 --> 00:02:53,910
+thích nhận đồ thị là điều cực kỳ quan trọng tại Netflix.
+
+41
+00:02:55,430 --> 00:02:57,930
+Nhưng, ví dụ, những gì tôi đã làm trên Reddit,
+
+42
+00:02:57,930 --> 00:03:01,130
+rất nhiều thứ hoàn toàn không liên quan đến những gì tôi đang làm và
+
+43
+00:03:01,130 --> 00:03:03,770
+Tuy nhiên đó là một trong những câu hỏi họ hỏi trong quá trình phỏng vấn của tôi.
+
+44
+00:03:03,770 --> 00:03:06,938
+Vì vậy, tất cả những gì để nói rằng lớp học này là để giúp bạn chuẩn bị cho
+
+45
+00:03:06,938 --> 00:03:09,540
+những kiểu phỏng vấn khủng khiếp [LAUGH].
+
+46
+00:03:09,540 --> 00:03:11,930
+Ngoài ra, tôi nghĩ những thứ này hữu ích
+
+47
+00:03:13,790 --> 00:03:19,040
+những khái niệm cần biết vì khoa học máy tính là khoa học về sự đánh đổi.
+
+48
+00:03:19,040 --> 00:03:20,810
+Đó rõ ràng là đơn giản hóa quá mức, nhưng
+
+49
+00:03:20,810 --> 00:03:26,180
+Tôi cũng nghĩ rằng điều đó nói chung đúng rằng, tôi có nên có mã dễ đọc hơn không?
+
+50
+00:03:26,180 --> 00:03:27,050
+Nó có nên đi nhanh hơn không?
+
+51
+00:03:27,050 --> 00:03:28,070
+Nó có nên mất ít bộ nhớ hơn?
+
+52
+00:03:29,200 --> 00:03:31,960
+Chà, câu trả lời cho câu hỏi đó là nó hoàn toàn phụ thuộc vào những gì
+
+53
+00:03:31,960 --> 00:03:32,510
+bạn đang làm, phải không?
+
+54
+00:03:32,510 --> 00:03:38,470
+Tôi sẽ nói 90% thời gian, 95% thời gian, nó phải là mã dễ đọc nhất.
+
+55
+00:03:38,470 --> 00:03:41,260
+Một trong những anh hùng mật mã cá nhân của tôi, người đã được dạy ở đây nhiều lần,
+
+56
+00:03:41,260 --> 00:03:43,840
+Kyle Simpson, nói rằng mã này nhiều hơn cho
+
+57
+00:03:43,840 --> 00:03:47,530
+người phải bảo trì nó hơn là cho máy tính, phải không?
+
+58
+00:03:47,530 --> 00:03:49,870
+Đó là giao tiếp nhiều hơn cho người đến sau bạn,
+
+59
+00:03:49,870 --> 00:03:54,050
+cho dù đó là chính bạn sau này hay người khác.
+
+60
+00:03:54,050 --> 00:03:57,588
+Và vì vậy tôi nghĩ rằng luôn luôn sai lầm ở khía cạnh của mã dễ đọc hơn.
+
+61
+00:03:57,588 --> 00:04:01,480
+Và hôm nay chúng ta sẽ nói về cách không viết mã có thể đọc được, phải không?
+
+62
+00:04:01,480 --> 00:04:03,190
+Bởi vì các thuật toán trở nên khá điên rồ.
+
+63
+00:04:05,030 --> 00:04:10,490
+Vì vậy, tất cả những gì cần nói là điều này hữu ích
+
+64
+00:04:10,490 --> 00:04:15,290
+để giúp bạn cân bằng trong đầu khi bạn bắt đầu viết
+
+65
+00:04:15,290 --> 00:04:20,220
+những thứ thực sự phức tạp, những thứ cần đi nhanh hơn, đại loại như vậy.
+
+66
+00:04:22,070 --> 00:04:24,990
+Vì vậy, một lần nữa, điều này có một chút bất lợi cho các giáo sư ngoài kia rằng
+
+67
+00:04:24,990 --> 00:04:27,370
+thực sự dạy các khóa học khoa học máy tính thực sự.
+
+68
+00:04:27,370 --> 00:04:29,700
+Đây không thực sự là bốn học kỳ mà là
+
+69
+00:04:29,700 --> 00:04:32,840
+đó là trước khi tôi bỏ học đại học [LAUGH].
+
+70
+00:04:32,840 --> 00:04:37,707
+Vì vậy, tôi cũng nên nói thêm rằng tuyên bố từ chối trách nhiệm, đó là tôi đã bỏ học đại học.
+
+71
+00:04:37,707 --> 00:04:42,200
+Nhưng tôi có đủ trình độ tin học để có thể dạy khóa học này, vì vậy đừng lo lắng.
+
+72
+00:04:42,200 --> 00:04:45,508
+Đây là những điều tôi học được trong bốn học kỳ đầu tiên về khoa học máy tính, vì vậy
+
+73
+00:04:45,508 --> 00:04:47,321
+đó là nguồn gốc của tiêu đề.
+
+74
+00:04:47,321 --> 00:04:52,910
+Nhưng nó là toàn bộ clickbait, ngay tại đó, tiêu đề clickbait.
+
+75
+00:04:52,910 --> 00:04:54,680
+Lớp này hữu ích nhất nếu bạn đã biết JavaScript.
+
+76
+00:04:54,680 --> 00:04:58,671
+Nhưng chúng ta sẽ nói về một số thứ ES6, vì tôi nghĩ chúng rất thú vị và
+
+77
+00:04:58,671 --> 00:05:01,500
+Tôi sẽ chỉ nói sơ qua về những thứ đó là gì.
+
+78
+00:05:01,500 --> 00:05:02,710
+Lớp này không phải về ES6.
+
+79
+00:05:02,710 --> 00:05:08,720
+Bạn nên xem một trong những khóa học rất tuyệt vời khác của Front End Master trên ES6.
+
+80
+00:05:08,720 --> 00:05:11,790
+Nhưng tôi sẽ giải thích ngắn gọn bất kỳ khái niệm ES6 nào mà tôi tiếp xúc.
+
+81
+00:05:14,123 --> 00:05:19,150
+>> Brian Holt: Và cuối cùng, bạn chỉ nên đọc cuốn sách này.
+
+82
+00:05:19,150 --> 00:05:25,170
+Giới thiệu về thuật toán của Corman, khó đọc nhưng liên kết trên trang web thì như vậy.
+
+83
+00:05:25,170 --> 00:05:28,740
+Nó hoàn toàn miễn phí, nó có trên trang web của MIT, bạn có thể lấy một bản PDF của nó.
+
+84
+00:05:28,740 --> 00:05:33,032
+Nhân tiện, nó rất lớn, không tải xuống bằng wifi, cuz, hoặc
+
+85
+00:05:33,032 --> 00:05:35,070
+nếu không thì lớp chúng ta sẽ rất buồn.
+
+86
+00:05:37,210 --> 00:05:41,320
+Nó chỉ là một trong những điều đó mà nó dài, nó là loại khô.
+
+87
+00:05:41,320 --> 00:05:44,030
+Nó là một cuốn sách giáo khoa khô khan nhưng chỉ cần đọc nó.
+
+88
+00:05:44,030 --> 00:05:47,100
+Tôi thề, nếu bạn chỉ đọc nó một lần, nó sẽ phục vụ bạn trong toàn bộ sự nghiệp của bạn.
+
+89
+00:05:47,100 --> 00:05:48,540
+Nó sẽ giúp bạn trở thành một nhà phát triển tốt hơn.
+
+90
+00:05:48,540 --> 00:05:50,760
+Bạn chỉ phải trả thuế và làm điều đó một lần.
+
+91
+00:05:51,910 --> 00:05:56,488
+Tôi đã đọc nó một vài lần, không phải gần đây, vì vậy tôi có lẽ nên làm lại.
+
+92
+00:05:56,488 --> 00:06:01,207
+Nhưng về cơ bản, đối với một nhà phát triển giao diện người dùng ngày nay, điều đó sẽ nhiều hơn
+
+93
+00:06:01,207 --> 00:06:05,880
+kiến thức nhiều hơn những gì bạn thực sự cần, nhưng nó sẽ cực kỳ hữu ích.
+
+94
+00:06:07,480 --> 00:06:09,030
+Nhưng đây là một nơi tốt để bắt đầu.
+
+95
+00:06:09,030 --> 00:06:13,790
+Điều này sẽ cho bạn thấy rằng thể dục tinh thần của các thuật toán, tôi nghĩ là thú vị.
+
+96
+00:06:14,890 --> 00:06:16,000
+Thật thú vị khi lập luận qua những điều này.
+
+97
+00:06:16,000 --> 00:06:16,867
+Họ là những câu đố, phải không?
+
+98
+00:06:16,867 --> 00:06:21,492
+Tôi yêu cầu bạn sắp xếp lại các con số theo những cách thú vị và nó giống như
+
+99
+00:06:21,492 --> 00:06:25,430
+một số loại trò chơi ô chữ thực sự tồi tệ hoặc đại loại như vậy.
